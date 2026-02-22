@@ -1,10 +1,11 @@
 {
   "name": "cake-empire-bot",
   "version": "1.0.0",
-  "description": "Telegram Bot for Cake Empire",
+  "description": "Telegram Bot for Cake Empire Game",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",
@@ -13,5 +14,8 @@
   },
   "engines": {
     "node": "18.x"
-  }
+  },
+  "keywords": ["telegram", "bot", "game", "clicker"],
+  "author": "Cake Empire",
+  "license": "MIT"
 }
