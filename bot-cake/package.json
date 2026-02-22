@@ -1,17 +1,15 @@
 {
   "name": "cake-empire-bot",
   "version": "1.0.0",
-  "description": "Telegram Bot for Cake Empire Game",
+  "description": "Telegram Bot for Cake Empire",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",
     "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "body-parser": "^1.20.2"
+    "cors": "^2.8.5"
   },
   "engines": {
     "node": "18.x"
