@@ -4,7 +4,7 @@ const cors = require('cors');
 
 // Переменные окружения
 const TOKEN = process.env.BOT_TOKEN;
-const WEBAPP_URL = process.env.WEBAPP_URL || 'https://cake-empire.netlify.app';
+const WEBAPP_URL = process.env.WEBAPP_URL || 'https://resplendent-begonia-113097.netlify.app/';
 const PORT = process.env.PORT || 3000;
 
 if (!TOKEN) {
@@ -110,3 +110,4 @@ process.on('SIGTERM', () => {
     bot.stopPolling();
     process.exit();
 });
+
